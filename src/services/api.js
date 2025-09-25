@@ -137,4 +137,8 @@ class ApiService {
     }
 }
 
-export default new ApiService();
+// Crie uma instância nomeada
+const apiService = new ApiService();
+
+// Exporte a instância nomeada
+export default apiService;
